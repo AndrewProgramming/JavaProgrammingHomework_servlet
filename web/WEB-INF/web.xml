@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+  version="4.0">
+
+  <servlet>
+    <servlet-name>Exercise_01</servlet-name>
+    <servlet-class>Exercise_01</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Exercise_02</servlet-name>
+    <servlet-class>Exercise_02</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Exercise_03</servlet-name>
+    <servlet-class>Exercise_03</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Exercise_04</servlet-name>
+    <servlet-class>Exercise_04</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Exercise_05</servlet-name>
+    <servlet-class>Exercise_05</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Exercise_06</servlet-name>
+    <servlet-class>Exercise_06</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Exercise_07</servlet-name>
+    <servlet-class>Exercise_07</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Exercise_08</servlet-name>
+    <servlet-class>Exercise_08</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Exercise_09</servlet-name>
+    <servlet-class>Exercise_09</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Exercise_10</servlet-name>
+    <servlet-class>Exercise_10</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Exercise_11</servlet-name>
+    <servlet-class>Exercise_11</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+    <servlet-name>Exercise_01</servlet-name>
+    <url-pattern>/Exercise_01</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Exercise_02</servlet-name>
+    <url-pattern>/Exercise_02</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Exercise_03</servlet-name>
+    <url-pattern>/Exercise_03</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Exercise_04</servlet-name>
+    <url-pattern>/Exercise_04</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Exercise_05</servlet-name>
+    <url-pattern>/Exercise_05</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Exercise_06</servlet-name>
+    <url-pattern>/Exercise_06</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Exercise_07</servlet-name>
+    <url-pattern>/Exercise_07</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Exercise_08</servlet-name>
+    <url-pattern>/Exercise_08</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Exercise_09</servlet-name>
+    <url-pattern>/Exercise_09</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Exercise_10</servlet-name>
+    <url-pattern>/Exercise_10</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Exercise_11</servlet-name>
+    <url-pattern>/Exercise_11</url-pattern>
+  </servlet-mapping>
+</web-app>

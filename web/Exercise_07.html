@@ -1,0 +1,28 @@
+<HTML>
+    <HEAD>
+        <TITLE>Exercise_07</TITLE>
+    </HEAD>
+    <BODY>
+        <FORM method="post" action="http://localhost:8080/Exercise_07">
+            JDBC URL
+            <select name="url" size="1">
+                <option>jdbc:odbc:ExampleMDBDataSource
+                <option>jdbc:mysql://localhost:3307/servletdemodb
+                <option>jdbc:mysql://localhost/javabook
+            </select>
+            <BR>
+            Username
+            <INPUT NAME="username">
+            <BR>
+            Password
+            <INPUT NAME="password">
+            <BR>
+            Table
+            <INPUT NAME="table">
+            <BR>
+            <BR>
+            <INPUT TYPE="SUBMIT" NAME="Submit" VALUE="Submit">
+            <INPUT TYPE="RESET" VALUE="Reset">
+        </FORM>
+    </BODY>
+</HTML>
